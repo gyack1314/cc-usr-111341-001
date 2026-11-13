@@ -1,0 +1,3 @@
+{"anchor": "common", "form": "v1", "id": "a1", "levels": 4, "reverse": false}
+{"anchor": null, "form": "v2", "id": "a2", "levels": 4, "reverse": false}
+{"anchor": null, "form": "v2", "id": "b2", "levels": 4, "reverse": true}

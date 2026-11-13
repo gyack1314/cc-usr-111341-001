@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "tables": {
+    "forms": {
+      "file": "boundary-forms.jsonl",
+      "sha256": "8cefc30938abef4c5f65d26e75204281e577f6dc612d6d8c44112506aaed692f",
+      "bytes": 48,
+      "rows": 2,
+      "fields": [
+        "id",
+        "wave"
+      ]
+    },
+    "items": {
+      "file": "boundary-items.jsonl",
+      "sha256": "b1cbf434a8c3478a13e5dd53564870b436db8bcf99671a1c1c62553b19901dc1",
+      "bytes": 225,
+      "rows": 3,
+      "fields": [
+        "id",
+        "form",
+        "anchor",
+        "levels",
+        "reverse"
+      ]
+    },
+    "people": {
+      "file": "boundary-people.jsonl",
+      "sha256": "529fb57e5031be552b631db3d743e639dc86276a4c742f55c046629c0fe9063a",
+      "bytes": 136,
+      "rows": 2,
+      "fields": [
+        "id",
+        "household",
+        "weight",
+        "age_group"
+      ]
+    },
+    "answers": {
+      "file": "boundary-answers.jsonl",
+      "sha256": "006820f214b59dd44bde5d913f32ed1d6de81dfb6f8c3c93d088453ca1741ba2",
+      "bytes": 233,
+      "rows": 3,
+      "fields": [
+        "id",
+        "person",
+        "item",
+        "value",
+        "status"
+      ]
+    }
+  }
+}
